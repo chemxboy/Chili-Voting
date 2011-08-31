@@ -1,0 +1,159 @@
+body {
+  background:url(../images/background.png) repeat-x left top;
+  font-family: helvetica, sans-serif;
+}
+a {
+  color:#fff;
+  font-weight:bold;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+a:hover {
+  color:#F36B22;
+}
+a img {
+  border:0;
+}
+#container {
+  width:1024px;
+  position:realative;
+  background:url(../images/peppers.png) no-repeat 0 0;
+  height:768px;
+  margin:0px auto 0;
+  border: 0px solid #a0a09f;
+}
+
+#header{
+  position:relative;
+  /* margin-top:20px; */
+  margin-left:20px;
+  left:20px;
+}
+#navigation {
+  position:absolute;
+  right:16px;
+  top:10px;
+}
+#navigation a {
+  color:#d0cfcf;
+}
+.hof #navigation a {
+  color: #fff;
+}
+#navigation a:hover,
+.hof #navigation a:hover {
+  color:#F36B22;
+}
+
+#links, #post {
+  position:relative;
+  left:36px;
+  top:0px;
+}
+#links a, #post p {
+  display:block;
+  font-size:100px;
+  line-height:70px;
+  color:#fff;
+  padding:15px;
+}
+#links a:hover {
+  color:#F36B22;
+}
+#links a.hof {
+  font-size:70px;
+}
+
+
+#form {
+  background: rgba(255, 255, 255, 0.9); /* R, G, B, A */
+  position:relative;
+  top:0px;
+  left:130px;
+  padding:10px;
+  font-size:35px;
+  width:760px;
+  color:#000;
+}
+
+#form input, #form textarea {
+  font-size:23px;
+  border:0;
+  background-color:#fff;
+  margin-bottom:10px;
+}
+#form textarea {
+  height:200px;
+  width:720px;
+}
+#form label {
+  font-weight:bold;
+  display:block;
+  float:left;
+  width:300px;
+  color:#000;
+  text-transform:uppercase;
+}
+
+#form .form-row {
+  float:left;
+  width:100%;
+
+}
+#form .by {
+  font-size:15px;
+}
+#form #submit {
+  background:transparent;
+  text-transform:uppercase;
+}
+
+.message {
+  font-size:20px;
+  color:#F36B22;
+}
+
+
+#window {
+  position:absolute;
+  top:0;
+  left:0;
+}
+#halloffame .fame  {
+  float:left;
+  width:320px;
+  height:375px;
+}
+
+/* arrow boxes */
+
+.arrow-box {
+  background-color:#d0cfcf;
+  position:absolute;
+  top:140px;
+  display:block;
+  height:82px;
+  width:12px;
+  z-index:1;
+}
+.arrow-box.right {
+  right:0;
+}
+.arrow-box.left {
+  left:0;
+}
+.arrow-box .arrow {
+  float:right;
+  width:12px;
+  height:82px;
+  background: url(../images/arrows.gif) no-repeat 0 -82px;
+}
+.arrow-box.left .arrow {
+  background: url(../images/arrows.gif) no-repeat 0 0;
+}
+.arrow-box:hover .arrow {
+  background-color: #F36B22;
+}
+.arrow-box.disabled:hover .arrow {
+  background-color:#d0cfcf;
+}

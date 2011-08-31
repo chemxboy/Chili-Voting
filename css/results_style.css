@@ -1,0 +1,103 @@
+body {
+  background:url(../images/background.png) repeat-x left top;
+  font-family: helvetica, sans-serif;
+  margin:50px 0px; padding:0px;
+}
+
+a {
+  color:#fff;
+  font-weight:bold;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+a:hover {
+  color:#F36B22;
+}
+a img {
+  border:0;
+}
+#container {
+  width:1500px;
+  height:800px;
+  position:relative;
+  background:url(../images/peppers_large.jpg) no-repeat 0 0;
+  margin:0px auto;
+  border: 2px solid #a0a09f;
+  top:100px;
+  }
+
+#header{
+  position:absolute;
+  /* margin-top:20px; */
+  /* margin-left:20px; */
+  left:20px;
+  float:left;
+}
+
+#links, #post {
+  position:relative;
+  left:0px;
+  top:0px;
+}
+#links a, #post p {
+  display:block;
+  font-size:100px;
+  line-height:70px;
+  color:#fff;
+  padding:0px;
+}
+#links a:hover {
+  color:#F36B22;
+}
+#links a.hof {
+  font-size:70px;
+}
+
+.message {
+  font-size:20px;
+  color:#F36B22;
+}
+
+.leaderboard_title {
+  font-size:20px;
+  color:#F36B22;
+}
+
+#unique_leaderboard {
+  background: rgba(255, 255, 255, 0.9); /* R, G, B, A */
+  position:relative;
+  left:35px;
+  top:225px;
+  padding:10px;
+  font-size:18px;
+  width:440px;
+  height:360px;
+  color:#000;
+  float:left;
+}
+
+#hot_leaderboard {
+ background: rgba(255, 255, 255, 0.9); /* R, G, B, A */
+  position:relative;
+  margin-left:55px;
+  margin-right:20px; 
+  top:225px;
+  padding:10px;
+  font-size:18px;
+  width:440px;
+  height:360px;
+  color:#000;
+  float:left;
+}
+
+#best_leaderboard {
+ background: rgba(255, 255, 255, 0.9); /* R, G, B, A */
+  position:relative;
+  top:225px;
+  padding:10px;
+  font-size:18px;
+  width:440px;
+  height:360px;
+  color:#000;
+  float:left;
+}
